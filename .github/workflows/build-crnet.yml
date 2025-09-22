@@ -3,7 +3,7 @@ name: Trigger Main Site Build
 on:
   push:
     branches:
-      - main  # or your blog branch
+      - master  # or your blog branch
 
 jobs:
   trigger:
