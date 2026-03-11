@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master  # or your blog branch
+  workflow_dispatch:
 
 jobs:
   trigger:
